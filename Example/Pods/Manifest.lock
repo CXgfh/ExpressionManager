@@ -1,0 +1,24 @@
+PODS:
+  - ExpressionManager (1.0.0):
+    - Util_V
+  - Util_V (1.0.4)
+
+DEPENDENCIES:
+  - ExpressionManager (from `../`)
+  - Util_V
+
+SPEC REPOS:
+  trunk:
+    - Util_V
+
+EXTERNAL SOURCES:
+  ExpressionManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ExpressionManager: d6451490b4d30f9cd4782bfead30785bece3cb96
+  Util_V: 8f4ba74a1ff3ac07a2509439ab53dd73afa1442e
+
+PODFILE CHECKSUM: b94e00983520131e08833689d3e2033c4d9caa7c
+
+COCOAPODS: 1.12.1

@@ -1,13 +1,9 @@
 use_frameworks!
 
-platform :ios, '10.0'
+platform :ios, '11.0'
 
 target 'ExpressionManager_Example' do
   pod 'ExpressionManager', :path => '../'
+  pod 'Util_V'
 
-  target 'ExpressionManager_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end
